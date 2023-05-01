@@ -1,0 +1,147 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    margin: -1px;
+}
+
+.header .search-area .btn-auto::after,
+.header .search-area .btn-keyboard::after,
+.sc-login .sub-area .link-id::before,
+.gnb .group-nav .nav-item .ic-tv::before,
+.gnb .group-nav .nav-item .ic-shop::before,
+.gnb .group-nav .nav-item .ic-live::before,
+.gnb .group-nav .btn-more::after,
+.sc-login .sub-area .link-join::before,
+.sc-sidenews .nav-wrap .next::before,
+.sc-sidenews .nav-wrap .prev::before,
+.gnb .whether-area .max::before,
+.sc-news .group-media .btn-prev .ic-btn,
+.sc-themecast .theme4 .btn-more-wrap .ic-more,
+.btn-theme,
+.content-top::before,
+.footer .notice-area .link-all::after,
+.sc-themecast .theme4 .group-title .title::after,
+.sc-themecast .topstory-thumb .ic-play,
+.sc-themecast .group-category .btn-prev .ic-btn,
+.sc-themecast .group-category .btn-next .ic-btn,
+.sc-news .btn-prev .ic-btn,
+.sc-news .group-title .link-title::after,
+.sc-news .group-title .link-title::before,
+.sc-news .group-issue .issue-area .link-media::after,
+.sc-themecast .theme2 .media-thumb .ic-play,
+.sc-themecast .group-title .info-area .btn-set::before,
+.sc-news .group-title .set-area .btn-set::after,
+.sc-login .link-login::before,
+.gnb .group-nav .nav-item .ic-mail::before,
+.header .service-area a::after,
+.header .search-area .btn-submit::after,
+.header .logo-area .logo a{
+    background-image: url('../images/sp-bg.png');
+    background-repeat: no-repeat;
+    background-size: 442px;
+}
+
+.sc-themecast .content-company .ad-mark{
+    background-image: url('../images/sp-bg-m.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+
+
+.group-goods .shop-page .btn.btn-prev::before,
+.group-goods .shop-page .btn.btn-next::before,
+.sc-shopcast .shop-control .btn.btn-next::before,
+.sc-shopcast .shop-control .btn.btn-prev::before,
+.sc-shopcast .group-plusdeal .deal-thumb .thumb-box+.thumb-box::before,
+.sc-shopcast .group-plusdeal .deal-thumb .ic-one-plus,
+.sc-shopcast .group-plusdeal .link-logo::before,
+.sc-shopcast .link-shop::before,
+.sc-shopcast .link-shop::after{
+    background-image: url('../images/sp-shop.png');
+    background-repeat: no-repeat;
+    background-size: 129px;
+}
+
+
+.gnb .group-weather .ic-w::before{
+    background-image: url('../images/w.png');
+    background-repeat: no-repeat;
+    background-size: 215px;
+}
+
+
+
+.shop-control{
+    position: absolute;
+    text-align: right;
+}
+.shop-control .num-box{
+    display: flex;
+    line-height: 29px;
+    color: grey;
+}
+.shop-control .current{
+    color: #202020;
+    font-weight: 700;
+}
+.shop-control .btn-box{
+    display: flex;
+}
+.shop-control .btn{
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border: 1px solid #dae1e6;
+}
+.shop-control .btn.btn-prev{
+    margin-right: -1px;
+}
+.shop-control .btn.btn-prev::before{
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -116px -60px;
+    vertical-align: top;
+    content: '';
+    margin: 9px 12px 9px 10px;
+}
+.shop-control .btn.btn-next::before{
+    display: inline-block;
+    width: 5px;
+    height: 9px;
+    background-position: -109px -60px;
+    vertical-align: top;
+    content: '';
+    margin: 9px 10px 9px 12px;
+}
+
+
+
+
+
+
+
+
+
+.thumb-bd{
+    position: relative;
+    display: block;
+}
+.thumb-bd::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #000;
+    opacity: 0.1;
+    content: '';
+}
+
+img{
+    image-rendering: -webkit-optimize-contrast;
+}
