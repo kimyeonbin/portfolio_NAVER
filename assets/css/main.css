@@ -307,8 +307,6 @@
     vertical-align: top;
     margin-top: 1px;
 }
-.sc-themecast .group-title .info-area .set-area{}
-
 .sc-themecast .group-category{
     position: relative;
     height: 49px;
@@ -423,8 +421,6 @@
     width: 364px;
     height: 180px;
 }
-.sc-themecast .topstory-thumb img{}
-
 .sc-themecast .topstory-thumb .thumb-dim{
     position: absolute;
     top: 0;
@@ -531,13 +527,11 @@
     width: 100%;
     height: auto;
 }
-.sc-themecast .group-theme .banner-ad{}
 .sc-themecast .group-theme .banner-ad .link-ad{
     display: flex;
     align-items: center;
     width: 100%;
 }
-.sc-themecast .thumb-area{}
 .sc-themecast .thumb-area img{
     width: 170px;
     height: 114px;
@@ -554,9 +548,6 @@
     color: rgb(143, 143, 143);
     vertical-align: top;
     box-sizing: border-box;
-}
-.sc-themecast .content-company .ic-ad{
-
 }
 .sc-themecast .content-company .ad-mark-area{
     margin: -2px 0;
@@ -605,9 +596,7 @@
 }
 
 
-.sc-themecast .theme-list{
 
-}
 .sc-themecast .theme-item+.theme-item{
     margin-top: 18px;
 }
@@ -732,7 +721,6 @@
     border: 1px solid #000;
 }
     
-.sc-themecast .theme2 .media-thumb img{}
 .sc-themecast .theme2 .media-thumb .ic-play{
     position: absolute;
     bottom: 9px;
@@ -1193,7 +1181,7 @@
 
 
 
-.sc-shopcast .goods-list-wrap{}
+
 .sc-shopcast .goods-list-wrap .goods-list{
     display: grid;
     grid-template-columns: repeat(3, 107px);
