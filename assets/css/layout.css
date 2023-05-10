@@ -57,7 +57,7 @@
 }
 .header .search-area .input-text{
     width: 444px;
-    height: 24px;
+    height: 47px;
     padding: 13px 15px;
     margin: 1px;
     font-size: 18px;
@@ -329,7 +329,7 @@
 }
 .footer .footer-inner{
     width: 1130px;
-    padding: 0 30px 92px;
+    padding: 0 0 92px;
     margin: 0 auto;
 }
 .footer .banner-area{
@@ -529,6 +529,10 @@
     font-weight: bold;
     color: #202020;
 }
+.footer .notice-area .notice-msg{
+    display: block;
+    color: #777;
+}
 .footer .notice-area .link-all{
     font-weight: 700;
     color: #202020;
@@ -591,19 +595,21 @@
     flex-direction: row-reverse;
     max-width: 150px;
 }
-.footer .aside-area .service-logo{}
-.footer .aside-area .service-logo img{
+.footer .aside-area .service-box.whale .service-logo img{
     width: 48px;
     height: 48px;
     max-width: none;
 }
-.footer .aside-area .service-logo.flower img{
+.footer .aside-area .service-box.flower .service-logo img{
     width: 47px;
     height: 50px;
     margin-right: 27px;
 }
 .footer .aside-area .service-info{
     overflow: hidden;
+}
+.footer .aside-area .service-box.flower .service-info{
+    margin-right: -12px;
 }
 .footer .aside-area .service-info .title{
     overflow: hidden;
