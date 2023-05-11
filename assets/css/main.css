@@ -455,7 +455,6 @@
     bottom: 0;
     opacity: .7;
     background-color: #000;
-    -webkit-border-radius: 2px;
     border-radius: 2px;
     color: transparent;
 }
@@ -805,7 +804,6 @@
     bottom: 0;
     content: '';
     border: 1px solid rgba(0,0,0,.06);
-    -webkit-border-radius: inherit;
     border-radius: inherit;
 }
 
@@ -946,7 +944,6 @@
     margin-top: 11px;
     background-color: #19ce60;
     border: 1px solid #15c654;
-    -webkit-border-radius: 2px;
     border-radius: 2px;
     font-size: 13px;
     color: #fff;
@@ -981,7 +978,6 @@
     display: inline-block;
     width: 3px;
     height: 3px;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
     vertical-align: top;
     content: '';

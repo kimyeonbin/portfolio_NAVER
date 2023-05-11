@@ -36,7 +36,9 @@
 .sc-news .group-title .set-area .btn-set::after,
 .sc-login .link-login::before,
 .gnb .group-nav .nav-item .ic-mail::before,
-.header .service-area a::after,
+.header .service-area .link-start::after,
+.header .service-area .link-junior::after,
+.header .service-area .link-bin::after,
 .header .search-area .btn-submit::after,
 .header .logo-area .logo a{
     background-image: url('../images/sp-bg.png');
@@ -94,7 +96,7 @@
 .shop-control .btn{
     width: 28px;
     height: 28px;
-    background-color: #fff;
+    background: #fff;
     border: 1px solid #dae1e6;
 }
 .shop-control .btn.btn-prev{
@@ -104,25 +106,20 @@
     display: inline-block;
     width: 5px;
     height: 9px;
-    background-position: -116px -60px;
-    vertical-align: top;
-    content: '';
     margin: 9px 12px 9px 10px;
+    vertical-align: top;
+    background-position: -116px -60px;
+    content: '';
 }
 .shop-control .btn.btn-next::before{
     display: inline-block;
     width: 5px;
     height: 9px;
-    background-position: -109px -60px;
-    vertical-align: top;
-    content: '';
     margin: 9px 10px 9px 12px;
+    vertical-align: top;
+    background-position: -109px -60px;
+    content: '';
 }
-
-
-
-
-
 
 
 

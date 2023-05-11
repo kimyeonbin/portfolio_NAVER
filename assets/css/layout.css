@@ -32,7 +32,6 @@
     left: -9px;
     margin-top: -32px;
 }
-.header .logo-area .logo{}
 .header .logo-area .logo a{
     display: block;
     width: 222px;
@@ -52,7 +51,6 @@
     width: 582px;
     height: 52px;
     border: 2px solid #19ce60;
-    -webkit-border-radius: 2px;
     border-radius: 2px;
 }
 .header .search-area .input-text{
@@ -134,33 +132,30 @@
 }
 .header .service-area .link-start::after{
     display: inline-block;
-    vertical-align: top;
     background-position: -382px -213px;
     width: 26px;
     height: 26px;
     margin-top: -3px;
     margin-left: 3px;
+    vertical-align: top;
     content: '';
 }
 .header .service-area .link-junior::after{
     display: inline-block;
     width: 60px;
     height: 10px;
-    background-position: -264px -296px;
-    background-repeat: no-repeat;
-    vertical-align: top;
     margin: 3px;
-    /* padding: 10px; */
+    background-position: -264px -296px;
+    vertical-align: top;
     content: '';
 }
 .header .service-area .link-bin::after{
     display: inline-block;
     width: 34px;
     height: 11px;
-    background-position: -365px -245px;
-    background-repeat: no-repeat;
-    vertical-align: top;
     margin: 3px 0 2px 9px;
+    background-position: -365px -245px;
+    vertical-align: top;
     content: '';
 }
 
@@ -183,7 +178,7 @@
 .gnb .group-nav .nav-list{
     display: flex;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 30px;
     gap: 11.5px;
     color: #19ce60;
@@ -192,7 +187,7 @@
     display: flex;
     gap: 11.5px;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 30px;
     margin-left: 12px;
     color: #000;
@@ -228,9 +223,9 @@
     display: inline-block;
     width: 12px;
     height: 14px;
-    background-position: -256px -212px;
-    vertical-align: top;
     margin: 9px 2px 0 0;
+    vertical-align: top;
+    background-position: -256px -212px;
     content: '';
 }
 .gnb .group-nav .btn-more{
@@ -280,12 +275,12 @@
 }
 .gnb .whether-area .current{
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 700;
     vertical-align: top;
 }
 .gnb .whether-area .state{
     margin-left: 5px;
-    font-weight: bold;
+    font-weight: 700;
 }
 .gnb .whether-area .degree-box{
     display: flex;
@@ -301,20 +296,20 @@
     display: inline-block;
     width: 5px;
     height: 11px;
-    background-position: -437px -182px;
-    content: '';
     margin: 0 3px;
     vertical-align: -1px;
+    background-position: -437px -182px;
+    content: '';
 }
 .gnb .whether-area .location{
+    display: block;
+    font-size: 12px;
+    color: grey;
+    padding-left: 9px;
+    text-align: right;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    display: block;
-    padding-left: 9px;
-    font-size: 12px;
-    color: grey;
-    text-align: right;
 }
 
 
@@ -323,7 +318,7 @@
 
 /* footer */
 .footer{
-    background-color: #fafbfc;
+    background: #fafbfc;
     border-top: 1px solid #e4e8eb;
 }
 .footer .footer-inner{
@@ -540,10 +535,10 @@
     display: inline-block;
     width: 8px;
     height: 12px;
-    background-position: -408px -110px;
-    content: '';
     margin-left: 10px;
     vertical-align: -2px;
+    background-position: -408px -110px;
+    content: '';
 }
 
 
@@ -569,7 +564,7 @@
     display: inline-block;
     width: 1px;
     height: 11px;
-    background-color: #e4e8eb;
+    background: #e4e8eb;
     vertical-align: -1px;
     margin: 0 4px 0 8px;
 }
@@ -643,16 +638,16 @@
     color: #777;
 }
 .footer .corp-area .corp-item+.corp-item::before{
-    content: "";
     display: inline-block;
     width: 1px;
     height: 11px;
     margin: 0 4px 0 8px;
-    background-color: #e4e8eb;
+    background: #e4e8eb;
     vertical-align: -1px;
+    content: '';
 }
 .footer .corp-area .corp-item strong{
-    font-weight: bold;
+    font-weight: 700;
 }
 .footer .corp-area .addr{
     color: #202020;
