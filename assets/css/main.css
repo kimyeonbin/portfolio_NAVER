@@ -20,7 +20,7 @@
     justify-content: space-between;
     position: relative;
     padding: 12px 15px 11px 15px;
-    background-color: #f7f9fa;
+    background: #f7f9fa;
     border: 1px solid #dae1e6;
     line-height: 24px;
     font-size: 13px;
@@ -122,7 +122,7 @@
     font-weight: 700;
 }
 .sc-news .group-title .sort-area .btn-sort+.btn-sort::before{
-    background-color: #c7ccd1;
+    background: #c7ccd1;
     display: inline-block;
     width: 4px;
     height: 4px;
@@ -286,7 +286,7 @@
     content: '';
     width: 1px;
     height: 12px;
-    background-color: #e4e8eb;
+    background: #e4e8eb;
 }
 .sc-themecast .group-title .info-area .btn-set::before{
     display: inline-block;
@@ -426,7 +426,7 @@
     right: 0;
     bottom: 0;
     opacity: .1;
-    background-color: #000;
+    background: #000;
 }
 .sc-themecast .topstory-thumb .ic-play{
     position: absolute;
@@ -454,7 +454,7 @@
     right: 0;
     bottom: 0;
     opacity: .7;
-    background-color: #000;
+    background: #000;
     border-radius: 2px;
     color: transparent;
 }
@@ -578,7 +578,7 @@
     display: inline-block;
     width: 6px;
     height: 12px;
-    background: url('../images/mini.png') 0px 0px / 6px 12px no-repeat;
+    background: url('../images/mini.png') no-repeat 0px 0px 6px 12px;
     margin-left: 4px;
     vertical-align: -2px;
     content: "";
@@ -651,7 +651,7 @@
     color: grey;
 }
 .sc-themecast .theme-list .date::before{
-    background-color: grey;
+    background: grey;
     display: inline-block;
     width: 2px;
     height: 2px;
@@ -698,7 +698,7 @@
     right: 0;
     bottom: 0;
     opacity: .1;
-    background-color: #000;
+    background: #000;
 }
 .sc-themecast .theme2 .media-thumb .thumb-bd{
     position: absolute;
@@ -736,7 +736,7 @@
     right: 0;
     bottom: 0;
     opacity: .7;
-    background-color: #000;
+    background: #000;
     border-radius: 2px;
     color: transparent;
 }
@@ -773,7 +773,7 @@
     color: grey;
 }
 .sc-themecast .media-info .source-wrap .date::before{
-    background-color: grey;
+    background: grey;
     display: inline-block;
     width: 2px;
     height: 2px;
@@ -865,7 +865,7 @@
     top: 0;
     left: 0;
     max-width: 100%;
-    background-color: #ebaa00;
+    background: #ebaa00;
 }
 .sc-themecast .theme4 .badge-inner{
     overflow: hidden;
@@ -890,7 +890,7 @@
     color: grey;
 }
 .sc-themecast .theme4 .source-wrap .dsc::before{
-    background-color: grey;
+    background: grey;
     display: inline-block;
     width: 2px;
     height: 2px;
@@ -930,7 +930,7 @@
 
 .sc-login{
     padding: 16px 16px 12px 17px;
-    background-color: #f7f9fa;
+    background: #f7f9fa;
     border: 1px solid #dae1e6;
 }
 
@@ -942,7 +942,7 @@
     display: block;
     padding: 15px 0;
     margin-top: 11px;
-    background-color: #19ce60;
+    background: #19ce60;
     border: 1px solid #15c654;
     border-radius: 2px;
     font-size: 13px;
@@ -974,7 +974,7 @@
     content: '';
 }
 .sc-login .sub-area .link-id::after{
-    background-color: #d7dce0;
+    background: #d7dce0;
     display: inline-block;
     width: 3px;
     height: 3px;
@@ -1124,7 +1124,7 @@
 .sc-shopcast .group-mall{
     overflow: hidden;
     padding: 12px 10px 11px 10px;
-    background-color: #f7f9fa;
+    background: #f7f9fa;
     border-bottom: 1px solid #dae1e6;
 }
 .sc-shopcast .group-mall .mall-area{
@@ -1137,7 +1137,7 @@
     color: #404040;
 }
 .sc-shopcast .mall-area .dot{
-    background-color: #c9cccf;
+    background: #c9cccf;
     display: inline-block;
     width: 3px;
     height: 3px;
@@ -1272,7 +1272,7 @@
     color: #202020;
 }
 .sc-shopcast .event-item a::before{
-    background-color: #1ace61;
+    background: #1ace61;
     display: inline-block;
     width: 4px;
     height: 4px;
@@ -1339,7 +1339,7 @@
     margin-left: 7px;
 }
 .sc-shopcast .group-plus .btn{
-    background-color: #fff;
+    background: #fff;
     border: 1px solid #dae1e6;
 }
 .sc-shopcast .group-plus .goods-list{
@@ -1397,7 +1397,7 @@
     color: grey;
 }
 .sc-shopcast .group-plusdeal .btn{
-    background-color: #fff;
+    background: #fff;
     border: 1px solid #dae1e6;
 }
 
