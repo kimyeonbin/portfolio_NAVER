@@ -1171,7 +1171,7 @@
     display: grid;
     grid-template-columns: repeat(3, 107px);
     grid-template-rows: repeat(4, 1fr);
-    column-gap: 5px;
+    justify-content: space-between;
     row-gap: 10px;
 }
 .sc-shopcast .goods-list-wrap .title{
