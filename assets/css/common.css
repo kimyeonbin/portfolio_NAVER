@@ -76,7 +76,16 @@
 }
 
 
-
+.sc-themecast .runtime .runtime-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    border-radius: 2px;
+    opacity: .7;
+}
 .shop-control{
     position: absolute;
     text-align: right;
