@@ -445,13 +445,13 @@
     margin-top: 9px;
 }
 .footer .aside-area .partner-box .link-partner+.link-partner::before{
-    content: "";
     display: inline-block;
     width: 1px;
     height: 11px;
+    margin: 0 4px 0 8px;
     background: #e4e8eb;
     vertical-align: -1px;
-    margin: 0 4px 0 8px;
+    content: '';
 }
 .footer .aside-area .title{
     width: 87px;
