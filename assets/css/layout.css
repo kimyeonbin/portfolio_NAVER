@@ -335,19 +335,19 @@
     display: flex;
     gap: 40px;
 }
-.footer .public-left{
+.footer .public-item{
     flex: 1;
     height: 86px;
 }
-.footer .public-left a{
+.footer .public-item a{
     display: flex;
 }
-.footer .public-left .public-img{
+.footer .public-item .public-img{
     overflow: hidden;
     width: 160px;
     height: 86px
 }
-.footer .public-left .public-content{
+.footer .public-item .public-content{
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -358,7 +358,7 @@
     box-sizing: border-box;
     text-align: left;
 }
-.footer .public-left .public-subtitle{
+.footer .public-item .public-subtitle{
     display: block;
     overflow: hidden;
     font-weight: 700;
@@ -366,7 +366,7 @@
     color: #58c464;
     white-space: nowrap;
 }
-.footer .public-left .public-title{
+.footer .public-item .public-title{
     display: block;
     margin-top: 6px;
     font-size: 13px;
@@ -376,7 +376,7 @@
     color: #242424;
     white-space: nowrap;
 }
-.footer .public-left .public-desc{
+.footer .public-item .public-desc{
     overflow: hidden;
     line-height: 18px;
     letter-spacing: -0.25px;
@@ -384,7 +384,7 @@
     white-space: nowrap;
     margin-top: 8px;
 }
-.footer .public-left .public-desc2{
+.footer .public-item .public-desc2{
     overflow: hidden;
     line-height: 18px;
     letter-spacing: -0.25px;
@@ -393,121 +393,6 @@
 }
 
 
-.footer .public-right{
-    flex: 1;
-    height: 86px;
-}
-.footer .public-right a{
-    display: flex;
-}
-.footer .public-right .public-img{
-    overflow: hidden;
-    width: 160px;
-    height: 86px
-}
-.footer .public-right .public-content{
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    height: 86px;
-    padding: 2px 2px 0 16px;
-    font-size: 12px;
-    line-height: 1.25;
-    box-sizing: border-box;
-    text-align: left;
-}
-.footer .public-right .public-subtitle{
-    display: block;
-    overflow: hidden;
-    font-weight: 700;
-    letter-spacing: -0.25px;
-    color: #58c464;
-    white-space: nowrap;
-}
-.footer .public-right .public-title{
-    display: block;
-    margin-top: 6px;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 1.25;
-    letter-spacing: -0.26px;
-    color: #242424;
-    white-space: nowrap;
-}
-.footer .public-right .public-desc{
-    overflow: hidden;
-    line-height: 18px;
-    letter-spacing: -0.25px;
-    color: #424242;
-    white-space: nowrap;
-    margin-top: 8px;
-}
-.footer .public-right .public-desc2{
-    overflow: hidden;
-    line-height: 18px;
-    letter-spacing: -0.25px;
-    color: #424242;
-    white-space: nowrap;
-}
-
-
-.footer .veta-time2{
-    flex: 1;
-    height: 86px;
-}
-.footer .veta-time2 a{
-    display: flex;
-}
-.footer .veta-time2 .public-img{
-    overflow: hidden;
-    flex-shrink: 0;
-    width: 160px;
-    height: 86px;
-}
-.footer .veta-time2 .public-content{
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    height: 86px;
-    padding: 2px 2px 0 16px;
-    font-size: 12px;
-    line-height: 1.25;
-    box-sizing: border-box;
-    text-align: left;
-}
-.footer .veta-time2 .public-subtitle{
-    display: block;
-    overflow: hidden;
-    font-weight: 700;
-    letter-spacing: -0.25px;
-    color: #58c464;
-    white-space: nowrap;
-}
-.footer .veta-time2 .public-title{
-    display: block;
-    margin-top: 6px;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 1.25;
-    letter-spacing: -0.26px;
-    color: #242424;
-    white-space: nowrap;
-}
-.footer .veta-time2 .public-desc{
-    overflow: hidden;
-    line-height: 18px;
-    letter-spacing: -0.25px;
-    color: #424242;
-    white-space: nowrap;
-    margin-top: 8px;
-}
-.footer .veta-time2 .public-desc2{
-    overflow: hidden;
-    line-height: 18px;
-    letter-spacing: -0.25px;
-    color: #424242;
-    white-space: nowrap;
-}
 .footer .notice-area{
     display: flex;
     justify-content: space-between;
