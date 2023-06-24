@@ -34,9 +34,6 @@ button{
 a{
     text-decoration: none;
 }
-a:hover{
-    text-decoration: underline;
-}
 table{
     border-collapse: collapse;
     border-spacing: 0;

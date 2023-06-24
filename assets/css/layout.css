@@ -11,15 +11,18 @@
 .skip-nav a{ 
     position: absolute; 
     top: -30px; 
-    line-height: 30px; 
-    background: #ccc; 
+    width: 80px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    background: #313131; 
+    color: #fff;
 }
 .skip-nav a:focus,
 .skip-nav a:active{ 
-    top: 0; 
+    top: 1px;
+    left: 1px;
 }
-
-
 .header .group-flex{
     position: relative;
     width: 1130px;
@@ -38,8 +41,6 @@
     height: 52px;
     background-position: 0 -158px;
 }
-
-
 .header .search-area{
     position: absolute;
     top: 50%;
@@ -111,8 +112,6 @@
     content: '';
     background-position: -420px -24px;
 }
-
-
 .header .service-area{
     display: flex;
     position: absolute;
@@ -129,6 +128,11 @@
     font-size: 11px;
     color: #404040;
 }
+.header .service-area .link-start:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+
+}
 .header .service-area .link-start::after{
     display: inline-block;
     background-position: -382px -213px;
@@ -139,6 +143,9 @@
     vertical-align: top;
     content: '';
 }
+.header .service-area .link-junior{
+    position: relative;
+}
 .header .service-area .link-junior::after{
     display: inline-block;
     width: 60px;
@@ -147,6 +154,12 @@
     background-position: -264px -296px;
     vertical-align: top;
     content: '';
+}
+.header .service-area .link-junior:hover::after{
+    background-position: -326px -296px;
+}
+.header .service-area .link-bin{
+    position: relative;
 }
 .header .service-area .link-bin::after{
     display: inline-block;
@@ -157,8 +170,9 @@
     vertical-align: top;
     content: '';
 }
-
-
+.header .service-area .link-bin:hover::after{
+    background-position: -380px -199px;
+}
 .gnb{
     border-top: 1px solid #e4e8eb;
     box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
@@ -191,6 +205,10 @@
     margin-left: 12px;
     color: #000;
 }
+.gnb .group-nav .nav-item:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
 .gnb .group-nav .nav-item .ic-mail::before{
     display: inline-block;
     width: 21px;
@@ -199,6 +217,9 @@
     vertical-align: top;
     margin: 3px 9px 0 0;
     content: '';
+}
+.gnb .group-nav .nav-item .ic-shop{
+    position: relative;
 }
 .gnb .group-nav .nav-item .ic-shop::before{
     display: inline-block;
@@ -209,6 +230,22 @@
     vertical-align: top;
     content: '';
 }
+.gnb .group-nav .nav-item .ic-shop::after{
+    position: absolute;
+    display: none;
+    bottom: 0;
+    left: 0;
+    width: 24px;
+    height: 1px;
+    background: #19ce60;
+    content: '';
+}
+.gnb .group-nav .nav-item .ic-shop:hover::after{
+    display: inline-block;
+}
+.gnb .group-nav .nav-item .ic-live{
+    position: relative;
+}
 .gnb .group-nav .nav-item .ic-live::before{
     display: inline-block;
     width: 54px;
@@ -217,6 +254,19 @@
     background-position: -209px -267px;
     vertical-align: top;
     content: '';
+}
+.gnb .group-nav .nav-item .ic-live::after{
+    position: absolute;
+    display: none;
+    bottom: 0;
+    left: 0;
+    width: 54px;
+    height: 1px;
+    background: #19ce60;
+    content: '';
+}
+.gnb .group-nav .nav-item .ic-live:hover::after{
+    display: inline-block;
 }
 .gnb .group-nav .nav-item .ic-tv::before{
     display: inline-block;
@@ -244,21 +294,20 @@
 }
 .gnb .group-weather .flick-viewport{
     position: relative;
-    overflow: hidden;
-    min-width: 100%;
+    max-width: 100%;
     height: 100%;
-    width: 270px;
 }
 .gnb .group-weather .whether-area{
     display: flex;
     justify-content: flex-end;
-    overflow: hidden;
-    max-width: 100%;
     padding: 12px 0 11px;
     font-size: 13px;
     line-height: 29px;
     vertical-align: top;
     content: '';
+}
+.gnb .group-weather .whether-area:hover .location{
+    text-decoration: underline;
 }
 .gnb .group-weather .ic-w::before{
     display: inline-block;
@@ -310,12 +359,6 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
-
-
-
-
-/* footer */
 .footer{
     background: #fafbfc;
     border-top: 1px solid #e4e8eb;
@@ -326,7 +369,6 @@
     margin: 0 auto;
 }
 .footer .banner-area{
-    overflow: hidden;
     padding: 24px 0;
     border-bottom: 1px solid #e4e8eb;
 }
@@ -340,6 +382,10 @@
 }
 .footer .public-item a{
     display: flex;
+}
+.footer .public-item a:hover .public-title{
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 .footer .public-item .public-img{
     overflow: hidden;
@@ -390,17 +436,18 @@
     color: #424242;
     white-space: nowrap;
 }
-
-
 .footer .notice-area{
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
     padding: 16px 0 15px;
     border-bottom: 1px solid #e4e8eb;
 }
 .footer .notice-area .notice-box{
     display: flex;
+}
+.footer .notice-area .notice-box a:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 .footer .notice-area .title{
     margin-right: 13px;
@@ -415,6 +462,10 @@
     font-weight: 700;
     color: #202020;
 }
+.footer .notice-area .link-all:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
 .footer .notice-area .link-all::after{
     display: inline-block;
     width: 8px;
@@ -424,8 +475,6 @@
     background-position: -408px -110px;
     content: '';
 }
-
-
 .footer .aside-area{
     display: flex;
     overflow: hidden;
@@ -443,11 +492,11 @@
 .footer .aside-area .partner-box+.partner-box{
     margin-top: 9px;
 }
-.footer .aside-area .partner-box .link-partner+.link-partner::before{
+.footer .aside-area .partner-box i.bar{
     display: inline-block;
     width: 1px;
     height: 11px;
-    margin: 0 4px 0 8px;
+    margin: 3px 7px 0 8px;
     background: #e4e8eb;
     vertical-align: -1px;
     content: '';
@@ -459,12 +508,13 @@
 .footer .aside-area .link-partner{
     color: #777;
 }
-
-
+.footer .aside-area .link-partner:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
 .footer .aside-area .service-wrap{
     display: flex;
     gap: 50px;
-    overflow: hidden;
     width: 350px;
     padding: 28px 0;
 }
@@ -483,9 +533,6 @@
     height: 50px;
     margin-right: 27px;
 }
-.footer .aside-area .service-info{
-    overflow: hidden;
-}
 .footer .aside-area .service-box.flower .service-info{
     margin-right: -12px;
 }
@@ -496,7 +543,7 @@
     display: block;
     padding-top: 2px;
 }
-.footer .aside-area .service-info .dsc{
+.footer .aside-area .service-info .link-go{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -504,12 +551,10 @@
     padding-top: 2px;
     color: grey;
 }
-
-
-
-
-
-
+.footer .aside-area .service-info .link-go:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
 .footer .corp-area{
     display: flex;
     gap: 13px;
@@ -520,6 +565,10 @@
 }
 .footer .corp-area .corp-item{
     color: #777;
+}
+.footer .corp-area .corp-item a:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 .footer .corp-area .corp-item+.corp-item::before{
     display: inline-block;
@@ -536,4 +585,8 @@
 .footer .corp-area .addr{
     color: #202020;
     font-weight: 700;
+}
+.footer .corp-area .addr a:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }

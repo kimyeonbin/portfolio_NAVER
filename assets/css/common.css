@@ -6,7 +6,6 @@
     clip: rect(0, 0, 0, 0);
     margin: -1px;
 }
-
 .header .search-area .btn-auto::after,
 .header .search-area .btn-keyboard::after,
 .sc-login .sub-area .link-id::before,
@@ -45,15 +44,11 @@
     background-repeat: no-repeat;
     background-size: 442px;
 }
-
 .sc-themecast .content-company .ad-mark{
     background-image: url('../images/sp-bg-m.png');
     background-repeat: no-repeat;
     background-size: 100px;
 }
-
-
-
 .group-goods .shop-page .btn.btn-prev::before,
 .group-goods .shop-page .btn.btn-next::before,
 .sc-shopcast .shop-control .btn.btn-next::before,
@@ -67,15 +62,11 @@
     background-repeat: no-repeat;
     background-size: 129px;
 }
-
-
 .gnb .group-weather .ic-w::before{
     background-image: url('../images/w.png');
     background-repeat: no-repeat;
     background-size: 215px;
 }
-
-
 .sc-themecast .runtime .runtime-bg{
     position: absolute;
     top: 0;
@@ -108,6 +99,12 @@
     background: #fff;
     border: 1px solid #dae1e6;
 }
+.shop-control .btn-prev:hover{
+    background: #dadada;
+}
+.shop-control .btn-next:hover{
+    background: #dadada;
+}
 .shop-control .btn.btn-prev{
     margin-right: -1px;
 }
@@ -129,10 +126,6 @@
     background-position: -109px -60px;
     content: '';
 }
-
-
-
-
 .thumb-bd{
     position: relative;
     display: block;
@@ -147,7 +140,6 @@
     opacity: 0.1;
     content: '';
 }
-
 img{
     image-rendering: -webkit-optimize-contrast;
 }
