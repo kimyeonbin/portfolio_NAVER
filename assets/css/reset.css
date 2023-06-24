@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 :root{
     -webkit-tap-highlight-color: transparent;
     -webkit-text-size-adjust: 100%;
@@ -46,8 +45,6 @@ table{
 fieldset, input{
     border: 0;
 }
-
-/* 세팅 */
 body{
     font-size: 12px;
     line-height: 16px;
