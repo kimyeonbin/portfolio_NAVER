@@ -11,9 +11,6 @@
 .column-right{
     width: 350px;
 }
-.column-left .aside-ad .thumb-bd:focus{
-    outline: none;
-}
 .column-left .aside-ad .thumb-bd:focus::after{
     border: 2px dashed #f00;
 }
@@ -250,9 +247,6 @@
     position: relative;
     height: 100%;
 }
-.sc-news .group-media .media:focus{
-    outline: none;
-}
 .sc-news .group-media .media:focus::after{
     border: 2px solid #000;
 }
@@ -468,9 +462,6 @@
     height: 100%;
     font-weight: 700;
 }
-.sc-themecast .group-category .category-item button:focus{
-    outline: none;
-}
 .sc-themecast .group-category .category-item button:focus::after{
     border: 2px solid #000;
 }
@@ -607,9 +598,6 @@
 .sc-themecast .type1 .banner-ad .link-ad:hover .content-title{
     text-decoration: underline;
 }
-.sc-themecast .type1 .banner-ad .link-ad:focus{
-    outline: none;
-}
 .sc-themecast .type1 .banner-ad .link-ad:focus::after{
     border: 2px dashed #f00;
 }
@@ -676,9 +664,6 @@
 }
 .sc-themecast .type1 .theme-list .link-go:hover .title{
     text-decoration: underline;
-}
-.sc-themecast .type1 .theme-list .link-go:focus{
-    outline: none;
 }
 .sc-themecast .type1 .theme-list .link-go:focus::after{
     border: 2px dashed #f00;
@@ -779,9 +764,6 @@
 .sc-themecast .type2 .media-wrap:hover .title{
     text-decoration: underline;
     text-underline-offset: 2px;
-}
-.sc-themecast .type2 .media-wrap:focus{
-    outline: none;
 }
 .sc-themecast .type2 .media-wrap:focus::after{
     border: 2px dashed #f00;
@@ -942,9 +924,6 @@
 .sc-themecast .type3 .media-area:hover .title{
     text-decoration: underline;
     text-underline-offset: 2px;
-}
-.sc-themecast .type3 .media-area:focus{
-    outline: none;
 }
 .sc-themecast .type3 .media-area:focus::after{
     border: 2px dashed #f00;
@@ -1165,12 +1144,6 @@
 .sc-sidenews .nav-wrap .next:hover{
     background: #dadada;
 }
-.sc-sidenews .nav-wrap .prev:focus{
-    outline: none;
-}
-.sc-sidenews .nav-wrap .next:focus{
-    outline: none;
-}
 .sc-sidenews .nav-wrap .prev:focus::after{
     border: 2px solid #000;
 }
@@ -1194,9 +1167,6 @@
     margin-top: 3px;
     background-position: -138px -327px;
     content: '';
-}
-.column-right .aside-ad .thumb-bd:focus{
-    outline: none;
 }
 .column-right .aside-ad .thumb-bd:focus::after{
     border: 2px dashed #f00;
