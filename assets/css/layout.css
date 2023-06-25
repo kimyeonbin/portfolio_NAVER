@@ -282,6 +282,10 @@
     margin-left: 17px;
     font-size: 13px;
 }
+.gnb .group-nav .btn-more:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
 .gnb .group-nav .btn-more::after{
     display: inline-block;
     width: 11px;
@@ -291,6 +295,9 @@
     background-position: -402px -296px;
     vertical-align: top;
     content: '';
+}
+.gnb .group-nav .btn-more:hover::after{
+    opacity: 0.7;
 }
 .gnb .group-weather .flick-viewport{
     position: relative;
@@ -308,6 +315,7 @@
 }
 .gnb .group-weather .whether-area:hover .location{
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 .gnb .group-weather .ic-w::before{
     display: inline-block;
@@ -388,18 +396,17 @@
     text-underline-offset: 2px;
 }
 .footer .public-item .public-img{
-    overflow: hidden;
     width: 160px;
     height: 86px
 }
 .footer .public-item .public-content{
     display: flex;
     flex-direction: column;
-    overflow: hidden;
     height: 86px;
     padding: 2px 2px 0 16px;
     font-size: 12px;
     line-height: 1.25;
+    overflow: hidden;
     box-sizing: border-box;
     text-align: left;
 }
@@ -589,4 +596,34 @@
 .footer .corp-area .addr a:hover{
     text-decoration: underline;
     text-underline-offset: 2px;
+}
+.btn-theme{
+    position: fixed;
+    right: 78px;
+    bottom: 19px;
+    width: 136px;
+    height: 53px;
+    background-position: -270px -110px;
+    vertical-align: top;
+    z-index: 100;
+}
+.btn-theme:hover{
+    background-position: -270px -55px;
+}
+.content-top{
+    position: fixed;
+    right: 24px;
+    bottom: 20px;
+    z-index: 100;
+}
+.content-top::before{
+    display: inline-block;
+    width: 51px;
+    height: 51px;
+    background-position: -150px -212px;
+    vertical-align: top;
+    content: '';
+}
+.content-top:hover::before{
+    background-position: -203px -212px;
 }
