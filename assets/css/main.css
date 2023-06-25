@@ -13,8 +13,9 @@
 }
 .column-left .aside-ad .thumb-bd:focus{
     outline: none;
+}
+.column-left .aside-ad .thumb-bd:focus::after{
     border: 2px dashed #f00;
-    border-radius: 4px;
 }
 .sc-news{
     margin-top: 12px;
@@ -246,7 +247,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     height: 100%;
+}
+.sc-news .group-media .media:focus{
+    outline: none;
+}
+.sc-news .group-media .media:focus::after{
+    border: 2px solid #000;
 }
 .sc-news .group-media .media img{
     height: 20px;
@@ -311,7 +319,6 @@
     background-position: -46px -296px;
 }
 .sc-news .btn-prev:hover .ic-btn::after{
-    display: inline-block;
     position: absolute;
     border: 20px solid rgba(36, 47, 59, 0.1);
     border-radius: 50%;
@@ -407,7 +414,6 @@
     background-position: -170px -342px;
 }
 .sc-themecast .group-category .btn-prev:hover .ic-btn::after{
-    display: inline-block;
     position: absolute;
     border: 18px solid rgba(36, 47, 59, 0.1);
     border-radius: 50%;
@@ -433,7 +439,6 @@
     background-position: -44px -342px;
 }
 .sc-themecast .group-category .btn-next:hover .ic-btn::after{
-    display: inline-block;
     position: absolute;
     border: 18px solid rgba(36, 47, 59, 0.1);
     border-radius: 50%;
@@ -457,10 +462,17 @@
 }
 .sc-themecast .group-category .category-item button{
     display: block;
+    position: relative;
     font-size: 13px;
     width: 100%;
     height: 100%;
     font-weight: 700;
+}
+.sc-themecast .group-category .category-item button:focus{
+    outline: none;
+}
+.sc-themecast .group-category .category-item button:focus::after{
+    border: 2px solid #000;
 }
 .sc-themecast .group-category .category-item button:hover{
     background: #e4e3e3;
@@ -473,35 +485,6 @@
     box-shadow: 0 3px 6px 0 rgba(0,0,0,.16);
     z-index: 1;
 }
-
-/* .sc-themecast .vt-line{
-    position: absolute;
-    top: 0;
-    width: 1px;
-    height: 100%;
-    background: #dae1e6;
-} */
-/* .sc-themecast .vt-line.vt1{
-    left: calc(750px/8);
-}
-.sc-themecast .vt-line.vt2{
-    left: calc((750px/8)*2);
-}
-.sc-themecast .vt-line.vt3{
-    left: calc((750px/8)*3);
-}
-.sc-themecast .vt-line.vt4{
-    left: calc((750px/8)*4);
-}
-.sc-themecast .vt-line.vt5{
-    left: calc((750px/8)*5);
-}
-.sc-themecast .vt-line.vt6{
-    left: calc((750px/8)*6);
-}
-.sc-themecast .vt-line.vt7{
-    left: calc((750px/8)*7);
-} */
 .sc-themecast .container{
     flex-direction: column;
     width: 750px;
@@ -618,6 +601,7 @@
 .sc-themecast .type1 .banner-ad .link-ad{
     display: flex;
     align-items: center;
+    position: relative;
     width: 100%;
 }
 .sc-themecast .type1 .banner-ad .link-ad:hover .content-title{
@@ -625,8 +609,9 @@
 }
 .sc-themecast .type1 .banner-ad .link-ad:focus{
     outline: none;
+}
+.sc-themecast .type1 .banner-ad .link-ad:focus::after{
     border: 2px dashed #f00;
-    border-radius: 4px;
 }
 .sc-themecast .type1 .thumb-area img{
     width: 170px;
@@ -687,14 +672,16 @@
 }
 .sc-themecast .type1 .theme-list .link-go{
     display: flex;
+    position: relative;
 }
 .sc-themecast .type1 .theme-list .link-go:hover .title{
     text-decoration: underline;
 }
 .sc-themecast .type1 .theme-list .link-go:focus{
     outline: none;
+}
+.sc-themecast .type1 .theme-list .link-go:focus::after{
     border: 2px dashed #f00;
-    border-radius: 4px;
 }
 .sc-themecast .type1 .theme-list .theme-thumb{
     display: block;
@@ -786,6 +773,7 @@
     margin: 0 -27px -31px 0;
 }
 .sc-themecast .type2 .media-wrap{
+    position: relative;
     margin: 0 27px 31px 0;
 }
 .sc-themecast .type2 .media-wrap:hover .title{
@@ -794,8 +782,9 @@
 }
 .sc-themecast .type2 .media-wrap:focus{
     outline: none;
+}
+.sc-themecast .type2 .media-wrap:focus::after{
     border: 2px dashed #f00;
-    border-radius: 4px;
 }
 .sc-themecast .type2 .media-thumb{
     display: block;
@@ -931,10 +920,10 @@
     display: inline-block;
     width: 7px;
     height: 11px;
-    background-position: -408px -146px;
-    content: '';
     margin-left: 1px;
+    background-position: -408px -146px;
     vertical-align: 0;
+    content: '';
 }
 .sc-themecast .type3 .group-view-wrap{
     width: 750px;
@@ -946,6 +935,7 @@
     padding: 18px 0 17px;
 }
 .sc-themecast .type3 .media-area{
+    position: relative;
     width: 232px;
     font-size: 12px;
 }
@@ -955,8 +945,9 @@
 }
 .sc-themecast .type3 .media-area:focus{
     outline: none;
+}
+.sc-themecast .type3 .media-area:focus::after{
     border: 2px dashed #f00;
-    border-radius: 4px;
 }
 .sc-themecast .type3 .media-thumb{
     width: 232px;
@@ -1035,7 +1026,6 @@
     text-underline-offset: 2px;
 }
 .sc-themecast .type3 .btn-more-wrap:hover .ic-more::after{
-    display: inline-block;
     position: absolute;
     margin-left: -19px;
     border: 19px solid rgba(36, 47, 59, 0.1);
@@ -1097,9 +1087,8 @@
     display: inline-block;
     width: 3px;
     height: 3px;
-    margin-top: 10px;
     border-radius: 50%;
-    margin: 6px 5px 0;
+    margin: 7px 5px 0;
     background: #d7dce0;
 }
 .sc-login .sub-area .link-find:hover{
@@ -1168,14 +1157,25 @@
     height: 24px;
     border: 1px solid #e4e8eb;
 }
-.sc-sidenews .nav-wrap .prev{
-    margin-right: -1px;
+.sc-sidenews .nav-wrap .prev,
+.sc-sidenews .nav-wrap .next{
+    position: relative;
 }
-.sc-sidenews .nav-wrap .prev:hover{
-    background: #dadada;
-}
+.sc-sidenews .nav-wrap .prev:hover,
 .sc-sidenews .nav-wrap .next:hover{
     background: #dadada;
+}
+.sc-sidenews .nav-wrap .prev:focus{
+    outline: none;
+}
+.sc-sidenews .nav-wrap .next:focus{
+    outline: none;
+}
+.sc-sidenews .nav-wrap .prev:focus::after{
+    border: 2px solid #000;
+}
+.sc-sidenews .nav-wrap .next:focus::after{
+    border: 2px solid #000;
 }
 .sc-sidenews .nav-wrap .prev::before{
     display: inline-block;
@@ -1197,6 +1197,8 @@
 }
 .column-right .aside-ad .thumb-bd:focus{
     outline: none;
+}
+.column-right .aside-ad .thumb-bd:focus::after{
     border: 2px dashed #f00;
 }
 .sc-shopcast{
@@ -1207,8 +1209,8 @@
     display: inline-block;
     width: 15px;
     height: 15px;
-    background-position: -109px -22px;
     margin-right: 4px;
+    background-position: -109px -22px;
     vertical-align: -3px;
     content: '';
 }
@@ -1216,8 +1218,8 @@
     display: inline-block;
     width: 5px;
     height: 9px;
-    background-position: -109px -49px;
     margin-left: 1px;
+    background-position: -109px -49px;
     vertical-align: 0;
     content: '';
 }
@@ -1550,7 +1552,6 @@
     gap: 10px;
 }
 .sc-shopcast .group-plusdeal .deal-thumb .ic-one-plus{
-    display: inline-block;
     position: absolute;
     top: 0;
     left: 0;
