@@ -359,9 +359,9 @@
 }
 .gnb .whether-area .location{
     display: block;
-    font-size: 12px;
     color: grey;
     padding-left: 9px;
+    font-size: 12px;
     text-align: right;
     overflow: hidden;
     text-overflow: ellipsis;
