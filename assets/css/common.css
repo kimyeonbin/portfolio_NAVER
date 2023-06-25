@@ -152,8 +152,7 @@
     content: '';
 }
 .column-right .aside-ad .thumb-bd:focus,
-.sc-sidenews .nav-wrap .prev:focus,
-.sc-sidenews .nav-wrap .next:focus,    
+.sc-sidenews .nav-wrap .btn-nav:focus,
 .sc-themecast .type3 .media-area:focus,
 .sc-themecast .type2 .media-wrap:focus,
 .sc-themecast .type1 .theme-list .link-go:focus,
@@ -161,8 +160,7 @@
 .sc-themecast .group-category .category-item button:focus,
 .sc-news .group-media .media:focus,
 .column-left .aside-ad .thumb-bd:focus,
-.shop-control .btn.btn-prev:focus,
-.shop-control .btn.btn-next:focus{
+.shop-control .btn:focus{
     outline: none;
 }
 .shop-control .btn.btn-prev:focus::after{
