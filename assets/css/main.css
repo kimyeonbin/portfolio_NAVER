@@ -12,7 +12,7 @@
     width: 350px;
 }
 .column-left .aside-ad .thumb-bd:focus::after{
-    border: 2px dashed #f00;
+    border: 2px dashed rgb(54, 136, 54);
 }
 .sc-news{
     margin-top: 12px;
@@ -314,7 +314,9 @@
 }
 .sc-news .btn-prev:hover .ic-btn::after{
     position: absolute;
-    border: 20px solid rgba(36, 47, 59, 0.1);
+    width: 41px;
+    height: 41px;
+    border: 2px solid rgba(36, 47, 59, 0.5);
     border-radius: 50%;
     margin-left: 2px;
     background: rgba(36, 47, 59, 0.1);
@@ -409,9 +411,11 @@
 }
 .sc-themecast .group-category .btn-prev:hover .ic-btn::after{
     position: absolute;
-    border: 18px solid rgba(36, 47, 59, 0.1);
+    width: 37px;
+    height: 37px;
+    border: 2px solid rgba(36, 47, 59, 0.5);
     border-radius: 50%;
-    margin-left: 2px;
+    margin-left: 1px;
     background: rgba(36, 47, 59, 0.1);
     content: '';
 }
@@ -434,7 +438,9 @@
 }
 .sc-themecast .group-category .btn-next:hover .ic-btn::after{
     position: absolute;
-    border: 18px solid rgba(36, 47, 59, 0.1);
+    width: 37px;
+    height: 37px;
+    border: 2px solid rgba(36, 47, 59, 0.5);
     border-radius: 50%;
     margin-left: 2px;
     background: rgba(36, 47, 59, 0.1);
@@ -926,7 +932,7 @@
     text-underline-offset: 2px;
 }
 .sc-themecast .type3 .media-area:focus::after{
-    border: 2px dashed #f00;
+    border: 2px dashed rgb(54, 136, 54);
 }
 .sc-themecast .type3 .media-thumb{
     width: 232px;
@@ -1006,8 +1012,10 @@
 }
 .sc-themecast .type3 .btn-more-wrap:hover .ic-more::after{
     position: absolute;
-    margin-left: -19px;
-    border: 19px solid rgba(36, 47, 59, 0.1);
+    width: 39px;
+    height: 39px;
+    margin-left: -19.5px;
+    border: 2px solid rgba(36, 47, 59, 0.5);
     border-radius: 50%;
     background: rgba(36, 47, 59, 0.1);
     content: '';

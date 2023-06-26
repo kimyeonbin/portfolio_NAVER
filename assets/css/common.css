@@ -148,16 +148,16 @@
     background-position: -109px -60px;
     content: '';
 }
-.column-right .aside-ad .thumb-bd:focus:not(:focus-visible),
-.sc-sidenews .nav-wrap .btn-nav:focus:not(:focus-visible),
-.sc-themecast .type3 .media-area:focus:not(:focus-visible),
-.sc-themecast .type2 .media-wrap:focus:not(:focus-visible),
-.sc-themecast .type1 .theme-list .link-go:focus:not(:focus-visible),
-.sc-themecast .type1 .banner-ad .link-ad:focus:not(:focus-visible),
-.sc-themecast .group-category .category-item button:focus:not(:focus-visible),
-.sc-news .group-media .media:focus:not(:focus-visible),
-.column-left .aside-ad .thumb-bd:focus:not(:focus-visible),
-.shop-control .btn:focus:not(:focus-visible){
+.column-right .aside-ad .thumb-bd:focus,
+.sc-sidenews .nav-wrap .btn-nav:focus,
+.sc-themecast .type3 .media-area:focus,
+.sc-themecast .type2 .media-wrap:focus,
+.sc-themecast .type1 .theme-list .link-go:focus,
+.sc-themecast .type1 .banner-ad .link-ad:focus,
+.sc-themecast .group-category .category-item button:focus,
+.sc-news .group-media .media:focus,
+.column-left .aside-ad .thumb-bd:focus,
+.shop-control .btn:focus{
     outline: none;
 }
 .shop-control .btn.btn-prev:focus-visible::after{
