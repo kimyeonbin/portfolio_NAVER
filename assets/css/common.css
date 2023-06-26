@@ -67,6 +67,7 @@
     background-repeat: no-repeat;
     background-size: 215px;
 }
+.footer .public-item a:focus-visible::after,
 .shop-control .btn:focus-visible::after,
 .sc-sidenews .nav-wrap .btn-nav:focus-visible::after,
 .sc-themecast .type3 .media-area:focus-visible::after,
@@ -148,6 +149,7 @@
     background-position: -109px -60px;
     content: '';
 }
+.footer .public-item a:focus,
 .column-right .aside-ad .thumb-bd:focus,
 .sc-sidenews .nav-wrap .btn-nav:focus,
 .sc-themecast .type3 .media-area:focus,

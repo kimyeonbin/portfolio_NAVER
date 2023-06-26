@@ -390,6 +390,10 @@
 }
 .footer .public-item a{
     display: flex;
+    position: relative;
+}
+.footer .public-item a:focus-visible::after{
+    border: 2px dashed #f00;
 }
 .footer .public-item a:hover .public-title{
     text-decoration: underline;
