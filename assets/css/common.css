@@ -67,25 +67,22 @@
     background-repeat: no-repeat;
     background-size: 215px;
 }
-.shop-control .btn.btn-prev:focus::after,
-.shop-control .btn.btn-next:focus::after,    
-.sc-sidenews .nav-wrap .prev:focus::after,
-.sc-sidenews .nav-wrap .next:focus::after,
-.sc-themecast .type3 .media-area:focus::after,
-.sc-themecast .type2 .media-wrap:focus::after,
-.sc-themecast .type1 .theme-list .link-go:focus::after,
-.sc-themecast .type1 .banner-ad .link-ad:focus::after,
-.sc-themecast .group-category .category-item button:focus::after,
-.sc-news .group-media .media:focus::after,
-.column-left .aside-ad .thumb-bd:focus::after,
-.column-right .aside-ad .thumb-bd:focus::after{
+.shop-control .btn:focus-visible::after,
+.sc-sidenews .nav-wrap .btn-nav:focus-visible::after,
+.sc-themecast .type3 .media-area:focus-visible::after,
+.sc-themecast .type2 .media-wrap:focus-visible::after,
+.sc-themecast .type1 .theme-list .link-go:focus-visible::after,
+.sc-themecast .type1 .banner-ad .link-ad:focus-visible::after,
+.sc-themecast .group-category .category-item button:focus-visible::after,
+.sc-news .group-media .media:focus-visible::after,
+.aside-ad .thumb-bd:focus-visible::after{
     position: absolute;
     top: -2px;
     bottom: -2px;
     left: -2px;
     right: -2px;
     border-radius: 4px;
-    z-index: 1;
+    z-index: 10;
     content: '';
 }
 .sc-themecast .runtime .runtime-bg{
@@ -151,22 +148,22 @@
     background-position: -109px -60px;
     content: '';
 }
-.column-right .aside-ad .thumb-bd:focus,
-.sc-sidenews .nav-wrap .btn-nav:focus,
-.sc-themecast .type3 .media-area:focus,
-.sc-themecast .type2 .media-wrap:focus,
-.sc-themecast .type1 .theme-list .link-go:focus,
-.sc-themecast .type1 .banner-ad .link-ad:focus,
-.sc-themecast .group-category .category-item button:focus,
-.sc-news .group-media .media:focus,
-.column-left .aside-ad .thumb-bd:focus,
-.shop-control .btn:focus{
+.column-right .aside-ad .thumb-bd:focus:not(:focus-visible),
+.sc-sidenews .nav-wrap .btn-nav:focus:not(:focus-visible),
+.sc-themecast .type3 .media-area:focus:not(:focus-visible),
+.sc-themecast .type2 .media-wrap:focus:not(:focus-visible),
+.sc-themecast .type1 .theme-list .link-go:focus:not(:focus-visible),
+.sc-themecast .type1 .banner-ad .link-ad:focus:not(:focus-visible),
+.sc-themecast .group-category .category-item button:focus:not(:focus-visible),
+.sc-news .group-media .media:focus:not(:focus-visible),
+.column-left .aside-ad .thumb-bd:focus:not(:focus-visible),
+.shop-control .btn:focus:not(:focus-visible){
     outline: none;
 }
-.shop-control .btn.btn-prev:focus::after{
+.shop-control .btn.btn-prev:focus-visible::after{
     border: 2px solid #000;
 }
-.shop-control .btn.btn-next:focus::after{
+.shop-control .btn.btn-next:focus-visible::after{
     border: 2px solid #000;
 }
 .thumb-bd{
