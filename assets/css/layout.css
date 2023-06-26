@@ -408,7 +408,7 @@
     transform: scale(1.06);
 }
 .footer .public-item img{
-    transition: .3s ease-in-out;
+    transition: .2s ease-in-out;
 }
 .footer .public-item .public-content{
     display: flex;

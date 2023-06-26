@@ -53,7 +53,7 @@
 .group-goods .shop-page .btn.btn-next::before,
 .sc-shopcast .shop-control .btn.btn-next::before,
 .sc-shopcast .shop-control .btn.btn-prev::before,
-.sc-shopcast .group-plusdeal .deal-thumb .thumb-box+.thumb-box::before,
+.sc-shopcast .group-plusdeal .deal-thumb::before,
 .sc-shopcast .group-plusdeal .deal-thumb .ic-one-plus,
 .sc-shopcast .group-plusdeal .link-logo::before,
 .sc-shopcast .link-shop::before,
@@ -76,7 +76,7 @@
 .sc-themecast .type1 .banner-ad .link-ad:focus-visible::after,
 .sc-themecast .group-category .category-item button:focus-visible::after,
 .sc-news .group-media .media:focus-visible::after,
-.aside-ad .thumb-bd:focus-visible::after{
+.aside-ad .thumb-bd:focus-visible::before{
     position: absolute;
     top: -2px;
     bottom: -2px;
@@ -172,7 +172,7 @@
     display: block;
     position: relative;
 }
-.thumb-bd::before{
+.thumb-bd::after{
     position: absolute;
     top: 0;
     left: 0;
