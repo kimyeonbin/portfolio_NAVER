@@ -472,7 +472,7 @@
     border: 2px solid #000;
 }
 .sc-themecast .group-category .category-item button:hover{
-    background: #e4e3e3;
+    background: #dacab8;
 }
 .sc-themecast .group-category .category-item .tab[aria-selected="true"]{
     position: relative;
