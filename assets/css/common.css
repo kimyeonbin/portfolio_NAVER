@@ -169,8 +169,8 @@
     border: 2px solid #000;
 }
 .thumb-bd{
-    position: relative;
     display: block;
+    position: relative;
 }
 .thumb-bd::before{
     position: absolute;
