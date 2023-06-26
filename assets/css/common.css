@@ -118,11 +118,8 @@
     background: #fff;
     border: 1px solid #dae1e6;
 }
-.shop-control .btn-prev:hover{
-    background: #dadada;
-}
-.shop-control .btn-next:hover{
-    background: #dadada;
+.shop-control .btn:hover{
+    background: rgba(0, 0, 0, .1);
 }
 .shop-control .btn.btn-prev{
     position: relative;
