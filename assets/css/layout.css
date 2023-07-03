@@ -495,7 +495,6 @@
 }
 .footer .aside-area{
     display: flex;
-    overflow: hidden;
     border-bottom: 1px solid #e4e8eb;
 }
 .footer .aside-area .partner-wrap{
@@ -539,6 +538,7 @@
 .footer .aside-area .service-box{
     display: flex;
     flex-direction: row-reverse;
+    gap: 5px;
     max-width: 150px;
 }
 .footer .aside-area .service-box.whale .service-logo img{
@@ -549,10 +549,6 @@
 .footer .aside-area .service-box.flower .service-logo img{
     width: 47px;
     height: 50px;
-    margin-right: 27px;
-}
-.footer .aside-area .service-box.flower .service-info{
-    margin-right: -12px;
 }
 .footer .aside-area .service-info .title{
     overflow: hidden;
