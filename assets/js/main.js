@@ -4,7 +4,7 @@ $(function(){
         e.preventDefault();
         window.scrollTo({top: 0, behavior: "smooth"});
     });
-    //a태그를_버튼으로_작동
+    //a태그_새로고침막기
     $('.sc-news .btn-prev, .sc-themecast .group-category .btn, .shop-control .btn').click(function(e){
         e.preventDefault();
     });
